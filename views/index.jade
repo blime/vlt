@@ -1,0 +1,46 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/reset.css')
+    link(rel='stylesheet', href='/css/jquery-ui-1.10.4.custom.min.css')
+    link(rel='stylesheet', href='/css/jquery.dataTables.min.css')
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    .header
+      .title #{title}
+      .entry
+        label(for='geneBox') Enter a gene:
+        input#geneBox
+    .content
+      table#variants(width='100%')
+        thead
+          tr
+            th.
+              GENE
+            th.
+              NUCLEOTIDE CHANGE
+            th.
+              PROTEIN CHANGE
+            th.
+              OTHER MAPPINGS
+            th.
+              ALIAS
+            th.
+              TRANSCRIPTS
+            th.
+              REGION
+            th.
+              REPORTED CLASSIFICATION
+            th.
+              INFERRED CLASSIFICATION
+            th.
+              SOURCE
+            th.
+              LAST EVALUATED
+            th.
+              LAST UPDATED
+    script(src='/js/jquery-1.11.0.min.js')
+    script(src='/js/jquery-ui-1.10.4.custom.min.js')
+    script(src='/js/jquery.dataTables.min.js')
+    script(src='/js/thing.js')

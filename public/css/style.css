@@ -1,0 +1,71 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #555555;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.error {
+	padding: 50px;
+}
+
+.header {
+	width: 100%;
+	min-width: 800px;
+	height: 70px;
+	background-color: #EEEEEE;
+}
+
+.title {
+	float: right;
+	position: relative;
+	margin-top: 15px;
+	margin-right: 20px;
+	font-size: 30px;
+}
+
+.entry {
+	position: relative;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 18px;
+}
+
+.entry label {
+	margin-right: 5px;
+}
+
+#geneBox {
+	width: 300px;
+	height: 25px;
+	padding-left: 5px;
+	font-size: 16px;
+	border-radius:10px;
+}
+
+.ui-autocomplete {
+	max-height: 300px;
+	overflow: scroll;	
+}
+
+.content {
+	min-width: 800px;
+	min-height: 100px;
+}
+
+table#variants {
+	font-size: 12px;
+	width: 100%;
+}
+
+table#variants th {
+	text-align: left;
+	padding-left: 10px;
+}
+
+table#variants td.date {
+	white-space: nowrap;
+}

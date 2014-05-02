@@ -1,0 +1,25 @@
+{
+  "name": "Variant-Lookup-Thing",
+  "version": "0.0.1",
+  "private": true,
+  "author" : {
+    "name" : "Vivian Kam",
+    "email" : "vivian.kam@gmail.com"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "./node_modules/.bin/mocha --recursive"
+  },
+  "dependencies": {
+    "express": "~3.4.8",
+    "debug": "~0.7.4",
+    "jade": "~1.3.0",
+    "line-reader" : "0.2.3",
+    "sqlite3" : "2.2.3"
+  },
+  "devDependencies" : {
+    "mocha" : "1.18.2",
+    "should" : "3.3.1",
+    "supertest" : "0.12.0"
+  }
+}

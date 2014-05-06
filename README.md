@@ -3,6 +3,10 @@ Variant Lookup Thing
 Variants you can look up by gene.
 Genes you can sort of look up by name.
 
+0) Got Node?
+------------
+If not, download the Node.js installer [here](http://nodejs.org/download/).
+
 1) Install Packages
 -------------------
 _npm install_
